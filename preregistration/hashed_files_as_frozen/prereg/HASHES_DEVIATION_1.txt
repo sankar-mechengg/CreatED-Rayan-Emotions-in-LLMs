@@ -1,0 +1,5 @@
+Deviation 1 freeze. UTC timestamp: 2026-10-05T22:31:21Z
+Recorded before any experimental result was computed with the corrected measure.
+
+63e962784a72ae87325360cc381bbdb79719a14669a02529279498cc9e47b347  prereg/DEVIATION_1.md
+e29e490b6ec6f356cabd11e3fb7069fb32a78bd004826b8a586a9c6ece59401f  diagnostics_measure.py

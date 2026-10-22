@@ -1,0 +1,95 @@
+{
+ "human_annotation": {
+  "n_annotated": 4773,
+  "vocab": 63,
+  "broad_labels": 7,
+  "fdr": {
+   "cosine": [
+    0.4350058696982917,
+    0.04861111111111111,
+    35
+   ],
+   "bhattacharyya": [
+    0.3804026224558283,
+    0.07083333333333333,
+    51
+   ],
+   "shared_label_jaccard": [
+    0.31487872576487225,
+    0.1375,
+    99
+   ],
+   "histogram_intersection": [
+    0.40952435431847545,
+    0.058333333333333334,
+    42
+   ],
+   "histogram_intersection_broad": [
+    0.4380028798784029,
+    0.05277777777777778,
+    38
+   ]
+  },
+  "unc": {
+   "cosine": [
+    0.39142106782640007,
+    0.06111111111111111,
+    44
+   ],
+   "bhattacharyya": [
+    0.3592494732105315,
+    0.06944444444444445,
+    50
+   ],
+   "shared_label_jaccard": [
+    0.455764257058137,
+    0.05416666666666667,
+    39
+   ],
+   "histogram_intersection": [
+    0.36639871645850236,
+    0.07777777777777778,
+    56
+   ],
+   "histogram_intersection_broad": [
+    0.4014362703302862,
+    0.06111111111111111,
+    44
+   ]
+  }
+ },
+ "pairwise_intersections_fdr": {
+  "ANGER-DISGUST": 42,
+  "ANGER-FEAR": 6,
+  "ANGER-HAPPINESS": 0,
+  "ANGER-SADNESS": 11,
+  "ANGER-SURPRISE": 21,
+  "DISGUST-FEAR": 7,
+  "DISGUST-HAPPINESS": 0,
+  "DISGUST-SADNESS": 13,
+  "DISGUST-SURPRISE": 0,
+  "FEAR-HAPPINESS": 3,
+  "FEAR-SADNESS": 44,
+  "FEAR-SURPRISE": 0,
+  "HAPPINESS-SADNESS": 5,
+  "HAPPINESS-SURPRISE": 11,
+  "SADNESS-SURPRISE": 0
+ },
+ "valence_ratio_fdr": {
+  "same_mean": 0.02572799381802977,
+  "opposite_mean": 0.0023837862198516843,
+  "ratio": 10.792911547089373
+ },
+ "predicted_vs_rest_fdr": {
+  "predicted_mean": 0.040432100657193305,
+  "rest_mean": 0.006489162042786829,
+  "ratio": 6.230712130564916
+ },
+ "portability_across_layers": {
+  "pairs": 216,
+  "mean_shared": 0.046296296296296294,
+  "expected": 0.04007523148148148,
+  "pairs_with_zero_shared": 206
+ },
+ "backbone_top20_mean_overlap_across_emotion_pairs": 17.644444444444446
+}

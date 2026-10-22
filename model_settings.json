@@ -1,0 +1,44 @@
+{
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "dtype": "bfloat16",
+ "device": "CPU, 2 threads",
+ "torch": "2.14.1",
+ "transformers": "5.18.0",
+ "layers": [
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "ffn_units": 8960,
+ "activation": "act_fn(gate_proj(x)) * up_proj(x) (post-SwiGLU product)",
+ "baseline_pooling": "attention-masked mean over tokens, raw text without chat template, max_length 512, batch 32 sorted by length",
+ "binarisation": "top 5% of units by absolute pooled activation per sample and layer",
+ "signature_criterion": "one-sided two-proportion z-test; BH-FDR q < 0.05 within each (layer, emotion) family of 8,960 tests; Cohen's h >= 0.2; p_target > p_other",
+ "split": "English, stratified 70/30, sklearn train_test_split random_state=42",
+ "prompting": "chat template, single user turn, instruction before stimulus, assistant prefix 'Answer:' for forced choice",
+ "label_token_ids": {
+  "anger": 19234,
+  "disgust": 67062,
+  "fear": 8679,
+  "happiness": 23009,
+  "sadness": 50878,
+  "surprise": 12761
+ },
+ "generation": "greedy, max_new_tokens 80, seed 42",
+ "scorers": [
+  "j-hartmann/emotion-english-distilroberta-base (joy -> happiness)",
+  "NRC Emotion Lexicon as bundled in nrclex 4.1.0"
+ ],
+ "internal_measures": {
+  "preregistered": "mean signed z over signature units (failed held-out validity)",
+  "mask (principal, Deviation 1)": "fraction of signature units in the top 5% of the pooled activation",
+  "absz (robustness, Deviation 1)": "mean standardised absolute activation over signature units"
+ },
+ "statistics": "LMM with crossed random intercepts (item, paraphrase), REML (lmm_crossed.py, validated against statsmodels); logistic GLMM by variational Bayes; Holm across 14 hypotheses"
+}

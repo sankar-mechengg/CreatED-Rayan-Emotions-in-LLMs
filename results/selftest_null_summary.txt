@@ -1,0 +1,14 @@
+H1.1: raw p=0.6938  Holm p=1
+H1.2: raw p=0.7304  Holm p=1
+H1.3: raw p=0.8856  Holm p=1
+H1.4: raw p=0.9251  Holm p=1
+H2.1: raw p=0.4986  Holm p=1
+H2.2: raw p=1  Holm p=1
+H2.3: raw p=0.4001  Holm p=1
+H3.1: raw p=0.4208  Holm p=1
+H3.2: raw p=0.7236  Holm p=1
+H3.3: raw p=0.9708  Holm p=1
+H3.4: raw p=0.9199  Holm p=1
+H4.2: raw p=0.3315  Holm p=1
+H4.3: raw p=0.7504  Holm p=1
+H4.4: raw p=0.02108  Holm p=0.2951

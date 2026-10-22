@@ -1,0 +1,50 @@
+{
+ "heldout_n": 4769,
+ "heldout_argmax_acc_centred": 0.16502411407003564,
+ "majority": 0.3015307192283498,
+ "heldout_pair_auc": {
+  "ANGER-DISGUST": 0.45142100893790904,
+  "FEAR-SADNESS": 0.50574221531689,
+  "HAPPINESS-SURPRISE": 0.43867290827012456
+ },
+ "heldout_one_vs_rest_auc": {
+  "ANGER": 0.5158818057201933,
+  "DISGUST": 0.5350458830286454,
+  "FEAR": 0.48423747508805354,
+  "HAPPINESS": 0.42141430616688985,
+  "SADNESS": 0.516300500123525,
+  "SURPRISE": 0.5067252814406171
+ },
+ "F1_pair_auc_by_condition": {
+  "ANGER-DISGUST|DISCRIMINATE": {
+   "stim_span": 0.405234375,
+   "final_token": 0.41790039062499995,
+   "behaviour": 0.6745654296875
+  },
+  "ANGER-DISGUST|RECOGNISE": {
+   "stim_span": 0.44796874999999997,
+   "final_token": 0.486357421875,
+   "behaviour": 0.7434521484375001
+  },
+  "FEAR-SADNESS|DISCRIMINATE": {
+   "stim_span": 0.50779296875,
+   "final_token": 0.62771484375,
+   "behaviour": 0.7585107421875
+  },
+  "FEAR-SADNESS|RECOGNISE": {
+   "stim_span": 0.493759765625,
+   "final_token": 0.629609375,
+   "behaviour": 0.8469433593749999
+  },
+  "HAPPINESS-SURPRISE|DISCRIMINATE": {
+   "stim_span": 0.44994140625,
+   "final_token": 0.451513671875,
+   "behaviour": 0.7801708984375
+  },
+  "HAPPINESS-SURPRISE|RECOGNISE": {
+   "stim_span": 0.44251953125,
+   "final_token": 0.43380859375,
+   "behaviour": 0.8285009765625
+  }
+ }
+}

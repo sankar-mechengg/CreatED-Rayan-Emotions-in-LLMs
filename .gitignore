@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Regenerated gate activations are several gigabytes per language.
+cache/**
+!cache/README.md
+
+# Manuscript figures are written here by the figure scripts.
+figures/**
+!figures/README.md

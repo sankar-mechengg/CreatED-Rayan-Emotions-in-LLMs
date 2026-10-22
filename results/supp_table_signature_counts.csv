@@ -1,0 +1,7 @@
+emotion,original_total,reextracted_uncorrected_total,corrected_total_zh,corrected_total_en,original_exclusive,corrected_exclusive_zh,corrected_shared_zh
+ANGER,14165,14189,844,550,5917,764,80
+DISGUST,9958,9976,106,114,2449,53,53
+FEAR,13121,13118,818,648,3759,712,106
+HAPPINESS,21555,21536,739,635,10050,695,44
+SADNESS,14829,14841,473,311,4685,370,103
+SURPRISE,23115,23101,1464,1311,13012,1405,59

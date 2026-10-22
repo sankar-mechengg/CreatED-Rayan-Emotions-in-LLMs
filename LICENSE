@@ -1,0 +1,15 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This repository accompanies the manuscript
+"Emotion-Associated Representations in the Feed Forward Gates of a Language Model"
+by Rayan Upadhyay and Sankar Balasubramanian.
+
+The manuscript states that the materials are released under CC-BY-4.0.
+You may share and adapt the material for any purpose, provided you give
+appropriate credit.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The Qwen2.5-1.5B-Instruct weights are downloaded from Hugging Face and remain
+under that model's licence. The NRC Emotion Lexicon is used through the
+installed nrclex 4.1.0 package and is not redistributed in this repository.
